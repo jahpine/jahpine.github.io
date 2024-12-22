@@ -1,0 +1,202 @@
+/* everything */
+body {
+    /* /\* background-color:#D2DADF; *\/ */
+    background-image:url("images/poly-g-4-150(59).jpg"); 
+    background-size:auto;
+    background-repeat:no-repeat;
+    /*background-color:#DCDCDC;*/
+    background-color:#F8F8F8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.15em;
+    margin:0;
+    padding:0;
+}
+
+/* default element styles */
+ul, ol {
+    margin:10px 0 35px 40px;
+    /* margin:0; */
+}
+p, ul, ol, blockquote {
+    font-size:0.85em;
+    line-height:1.9em;
+    text-align:justify;
+    margin-bottom:20px;
+    color:#050505;
+}
+a {
+    /* color:#475864; */
+    color:#FF8000;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:hover{
+    color:red;
+    /* color:#44A604; */
+    text-decoration:underline;
+    /* font-weight: bold; */
+}
+img {
+    border:none;
+}
+h1, h2, h4 {
+    margin-bottom:10px;
+    color:#333333;
+}
+h3 {
+    color:#333333;
+    margin-bottom:15px;
+}
+h5 {
+    font-size:0.85em;
+}
+.clear {
+    clear:both;
+}
+
+/* page wrapper */
+div#wrap {
+    max-width:980px;
+    margin:0 auto;
+    padding:0 5px;
+}
+div#header {
+    padding:30px;
+    /* background:transparent url('images/header-hilight.png') no-repeat scroll top left; */
+}
+
+/* header text */
+div#header h1 {
+    padding:0;
+    margin:0;
+    float:left;
+}
+div#header h1, div#header h1 a {
+    color:#445560;
+    border-bottom:none;
+    font-size:1.5em;
+    letter-spacing:-3px;
+    line-height:1.0em;
+    /* text-transform:lowercase; */
+}
+div#header h1 a span {
+    color:#999999;
+}
+
+/* navigation menu */
+div#navigation {
+    height:40px;
+    /* background:#333333 url('images/nav-left.png') no-repeat scroll top left; */    
+    background:#333333;
+}
+div.inner-navigation {
+    height:40px;
+    /* background-image:url('images/nav-right.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-position:top right; */
+}
+div#navigation ul {
+    list-style:none;
+    margin:0 10px; 
+    padding:0;
+    /* position:relative; */
+    top:0;
+}
+div#navigation li a {
+    display:block;
+    float:left;
+    color:#ffffff;
+    border-bottom:none;
+    height:24px;
+    font-weight:bold;
+    font-size:0.9em;
+    text-transform:uppercase;
+    padding:8px 20px 8px;
+}
+div#navigation li.selected a {
+    /* background:#474747 url('images/nav-selected.png') no-repeat scroll bottom center; */
+    background:#474747;
+}
+
+/* page content area */
+div#content {  
+    clear:both;
+    /* padding:25px 10px 10px 10px; */
+    padding:0;
+}
+
+/* main content area + page styles */
+div#page {
+    float:left;
+    /* padding:10px 0 10px 20px; */
+    padding:10px 10px;
+    /* width:740px; */
+    width:auto;
+    /* color:#050505; */
+    color:#0101DF;
+    font-size:1.0em;
+}
+div#content h2 {
+    letter-spacing:-1px;
+    font-size:1.1em;
+    /*color:#4D616D;*/
+    color:#2E64FE;
+    /*color:#0101DF;*/
+}
+div#content h2 span {
+    letter-spacing:-1px;
+    font-size:0.9em;
+    color:#333333;
+    text-decoration: underline dotted;    
+}
+div#content h4 span{
+    letter-spacing:-1px;
+    font-size:1.3em;
+    color:#2E64FE;
+    text-decoration: underline dotted;
+    /*color:#0101DF;*/
+}
+div#content h1 {
+    /* color:#474747; */
+    color:#4D616D;
+}
+div#content span {
+    letter-spacing:-1px;
+    font-size:1.2em;
+    color:#333333;
+    text-decoration: underline dotted;    
+    font-weight:bold;
+}
+div#page li a {
+    /* color:#04B431; */
+    color:#44A604;
+    text-decoration:none;
+    font-weight: bold;
+}
+div#page li a:hover{
+    color:red;
+    /* color:#44A604; */
+    text-decoration:underline;
+    /* font-weight: bold; */
+}
+div#content ul {
+    margin:0 0 20px 30px;
+}
+
+/* footer styles */
+div.footer {
+    clear:both;
+    /* background:#D2DADF url('images/footer-bg.png') repeat-x scroll top left; */
+    padding:25px 30px 10px 30px;
+    margin:0 auto;
+}
+div.footer p {
+    margin:0;
+    color:#879DAB;
+    font-size:0.7em;
+}
+div.footer p a {
+    color:#879DAB;
+    border-bottom:none;
+    text-decoration:underline;
+}
